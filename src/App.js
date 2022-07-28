@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
-import * as htmlToImage from "html-to-image";
-import { toPng, toJpeg, toBlob, toPixelData, toSvg } from "html-to-image";
+import { toBlob } from "html-to-image";
 
 import "./App.css";
 
