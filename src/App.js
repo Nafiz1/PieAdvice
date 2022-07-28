@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 import { toBlob } from "html-to-image";
-import Background from "./assets/piebackground.jpg";
 
 import "./App.css";
 
