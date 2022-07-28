@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { toBlob } from "html-to-image";
+import Background from "./assets/piebackground.jpg";
 
 import "./App.css";
 
@@ -40,8 +41,8 @@ class App extends React.Component {
                     type: newFile.type,
                 }),
             ],
-            title: "Image",
-            text: "image",
+            title: "Pie Advice",
+            text: "Some advice from pies:",
         };
         try {
             await navigator.share(data);
@@ -54,7 +55,7 @@ class App extends React.Component {
         const { advice } = this.state;
         return (
             <div className="app">
-                <meta charset="utf-8" />;
+                <meta charset="utf-8" />
                 <div className="card" ref={this.imageRef}>
                     <h1 className="heading">{advice}</h1>
                     <button className="button" onClick={this.fetchAdvice}>
