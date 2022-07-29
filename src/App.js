@@ -5,9 +5,6 @@ import BackgroundSlider from "react-background-slider";
 import image1 from "./assets/piebackground.jpg";
 import image2 from "./assets/pieback2.jpg";
 import image3 from "./assets/pieback3.jpg";
-import image4 from "./assets/pieback4.jpg";
-import image5 from "./assets/pieback5.jpg";
-import image6 from "./assets/pieback6.jpg";
 
 import "./App.css";
 
@@ -61,11 +58,7 @@ class App extends React.Component {
         const { advice } = this.state;
         return (
             <div className="app">
-                <BackgroundSlider
-                    images={[image1, image2, image3, image4, image5, image6]}
-                    duration={8}
-                    transition={1}
-                />
+                <BackgroundSlider images={[image1, image2, image3]} duration={8} transition={1} />
                 <meta charset="utf-8" />
                 <div className="card" ref={this.imageRef}>
                     <h1 className="heading">{advice}</h1>
