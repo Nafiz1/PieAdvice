@@ -25,7 +25,7 @@ body {
 .card {
     border-style: solid;
     border-width: thin;
-    background: rgba(245, 245, 245, 0.973);
+    background: rgba(245, 245, 245, 0.984);
     width: 50%;
     height: 35vh;
     display: flex;

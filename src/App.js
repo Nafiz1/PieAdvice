@@ -63,7 +63,7 @@ class App extends React.Component {
             <div className="app">
                 <BackgroundSlider
                     images={[image1, image2, image3, image4, image5, image6]}
-                    duration={7}
+                    duration={8}
                     transition={1}
                 />
                 <meta charset="utf-8" />
